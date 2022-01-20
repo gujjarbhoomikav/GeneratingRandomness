@@ -126,6 +126,7 @@ def testing_model(testing_value):
     print("( "+"{:.2s}".format(correct_percent)+" %)")
     calculate_score(correct_ans=no_of_correct,total_ans=(len(testing_value) - 3))
     print("Your balance is now $"+str(money_left))
+    packaging_data(testing_value)
 
 
 print("Please give AI some data to learn...")
